@@ -8,7 +8,7 @@ jobs:
   # jobs run in parallel by default
   job1:
     name: First job
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Step One
         uses: actions/checkout@v2
