@@ -18,6 +18,7 @@ jobs:
   job2:
     name: Second job
     runs-on: windows-latest
+    steps:
       - name: Step One
         uses: actions/checkout@v2
       - name: Step Two
@@ -26,6 +27,7 @@ jobs:
   job3:
     name: Third job
     runs-on: macos-latest
+    steps:
       - name: Step One
         uses: actions/checkout@v2
       - name: Step Two
