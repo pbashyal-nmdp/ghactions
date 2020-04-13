@@ -1,6 +1,13 @@
 name: first
 
-on: push
+on: 
+  push:
+    branches:
+      - develop
+      - master
+  pull-request:
+    branches:
+      - master
 
 jobs:
   
